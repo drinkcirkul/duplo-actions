@@ -193,7 +193,7 @@ runs:
       echo "multiarch=${MULTIARCH}" >> $GITHUB_OUTPUT
 
   - name: Expose GitHub Runtime
-    uses: crazy-max/ghaction-github-runtime@v3
+    uses: drinkcirkul/ghaction-github-runtime@master
   
   - name: Setup QEMU
     id: setup-qemu
